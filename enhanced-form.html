@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+           <title>Enhanced HTML</title> 
+        </head>
+        <body>
+        <h3>Lists</h3>
+            <ol>
+                <li>Apples</li>
+                    <ol>
+                        <li>Green apples</li>
+                        <li>Red apples</li>
+                    </ol>
+                <li>Bananas</li>
+                <li>Watermelon</li>
+            </ol>
+            <ul>
+                <li>Sudan</li>
+                <li>Kenya</li>
+                <li>Eritrea</li>
+            </ul>
+            <dl>
+                <dt>Available countries</dt>
+                <dd>Kenya,Eritrea,Sudan</dd>
+            </dl>
+            <h3>Table</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Country</th>
+                        <th>Fruit</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sudan</td>
+                        <td>Apples</td>
+                        <td>6:00 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Kenya</td>
+                        <td>Bananas</td>
+                        <td>9:00 am</td>
+                    </tr>
+                    <tr>
+                        <td>Eritrea</td>
+                        <td>Watermelon</td>
+                        <td>5:00 am</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Multimedia</h3>
+            <h4>Images</h4>
+            <img src="" alt="Fruits" width="300" height="200">
+            <h4>Audio</h4>
+            <audio controls>
+                <source src="" type="">
+                Your browser does not support audio playback
+            </audio>
+            <h4>Video</h4>
+            <video width="" height="" controls>
+                <source src="" type="video/">
+                Your browser does not supportvideo playback.
+            </video>
+            <h3>Forms</h3>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                        <label for="name">Name:</label>
+                        <input type="name" id="name" name="name" required autocomplete="name" readonly>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" minlength="8" maxlength="20" required autocomplete="off">
+                        </fieldset>
+                        <textarea name="comments" rows="4" cols="60" placeholder="Write your feedback here"></textarea>
+                        <select name="country" id="country">
+                            <option value="Sudan">Sudan</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Eritrea">Eritrea</option>
+                        </select>
+                        <button type="submit">Submit Order</button>
+            </form>
+            </body>
+    </html>
